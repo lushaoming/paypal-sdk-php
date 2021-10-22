@@ -1,0 +1,24 @@
+{
+    "name": "echolove/paypal-sdk",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Echolove\\Paypal\\": "src",
+            "Echolove\\Paypal\\Core\\": "src/Core",
+            "Echolove\\PayPal\\Common\\": "src/Common",
+            "Echolove\\PayPal\\Abstracts\\": "src/Abstracts"
+        }
+    },
+    "authors": [
+        {
+            "name": "Echolove",
+            "email": "lushaoming6@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*"
+    }
+}
